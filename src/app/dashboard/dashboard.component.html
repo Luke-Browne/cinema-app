@@ -1,0 +1,21 @@
+<h4>Logged in as {{username}}</h4>
+<button (click)="onLogout()">Log out</button>
+
+<hr class="clearfix">
+<hr class="clearfix">
+
+<div class="container">
+<div class="cards-list">    
+    <div class="cards-list">
+      <div class="row homecard">
+          <div class="col col-2"><h2> Image </h2></div>
+          <div class="col col-2"><h2> Name </h2></div>
+          <div class="col col-2"><h2> Runtime </h2></div>
+          <div class="col col-3"><h2> Ticket Price </h2></div>
+      </div>
+      <app-row class="card" *ngFor="let f of filmList"
+        [film] = "f">
+        </app-row>  
+</div>
+</div>
+

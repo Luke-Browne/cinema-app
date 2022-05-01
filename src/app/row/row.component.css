@@ -1,0 +1,104 @@
+img{
+    padding: 3px;
+    border: 3px solid #424242;
+    border-radius: 12px;
+    background-color: #d9d9d9;
+}
+button{
+    height: 60%;
+    width: 100%;
+    border-radius: 25px;
+    background-color: green;
+    border: 2px solid black;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.container{
+    margin-top: 6%;
+}
+
+.headers{
+    font-size: medium;
+}
+
+.cards-list{
+    width:95%;
+    margin:1em auto;
+  }
+  .homecard{
+    border:1px solid #eee;
+    background-color: #ededed;
+    padding:1em;
+    margin:1em;
+    height:24vh;
+    position:relative;
+    box-shadow:0px 0px 3px 3px #f7f7f7;
+    border-radius: 10px;
+  }
+  .homecard:hover{
+    background:#d9d9d9;
+    border:2px solid #5498FD;
+    box-shadow:0px 0px 0px #eee;
+  }
+  .homecard h3{
+    align-self: center;
+    width: 115%;
+    margin-top: 25%;
+  }
+  #price{
+      margin-top: -32px;
+  }
+  #dateTime{
+      width: 100%;
+      margin-top: 20px;
+  }
+  #type{
+      margin-right: 25px;
+  }
+  .homecard a:link,
+  .homecard a:visited{
+    width:8em;
+    color:#000000;
+    border-radius:0px;
+    bottom:20%;
+    position:absolute;
+    padding:1em 1em;
+    text-align:center;
+    font-weight:bold;
+    line-height:1;
+  }
+  .homecard a:hover{
+    text-decoration:none;
+  }
+  .col{
+    text-align: center;
+  }
+
+  .green{
+      color: green;
+  }
+  .red{
+      color:red;
+  }
+
+  @media screen and (max-width: 1300px){
+    .homecard{
+      height:15vh;
+      margin-right: 3.5%;
+    }
+  }
+    
+  @media screen and (max-width: 1100px) {
+    .homecard{
+      height:18vh;
+      margin-right: 5%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .homecard{
+      height:21vh;
+      margin-right: 7%;
+    }
+  }
